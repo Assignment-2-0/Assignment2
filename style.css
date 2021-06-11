@@ -1,0 +1,19 @@
+nav{
+    text-align: center;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}      
+
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    
+} 
