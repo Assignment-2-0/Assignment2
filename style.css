@@ -9,8 +9,9 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    margin: 20px;
-    padding: 20px;
+    margin: 15px;
+    padding: 15px;
+    width: 120px; 
 }
 
 a{
