@@ -22,3 +22,27 @@ figcaption{font-size: 13px;
 footer{text-align: center;
         color: #4fbbe4;}
 input,td img{vertical-align:middle;}
+h1{
+    text-align: center;
+}
+p {
+    margin:50px;
+    padding: 50px;
+    font-size: 1.5em;
+    font-family:'Times New Roman';
+    text-align: left;
+    border: 1px solid;
+    border-radius: 3em;
+    
+}
+div.category {
+    margin:50px;
+    padding:50px;
+}
+div.category img {
+    height: 100px
+    width: 200px;
+    float: left;
+    height: 200px;
+    border: 2px solid;
+}
