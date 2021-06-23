@@ -33,16 +33,5 @@ p {
     text-align: left;
     border: 1px solid;
     border-radius: 3em;
-    
 }
-div.category {
-    margin:50px;
-    padding:50px;
-}
-div.category img {
-    height: 100px
-    width: 200px;
-    float: left;
-    height: 200px;
-    border: 2px solid;
-}
+
