@@ -22,19 +22,5 @@ figcaption{font-size: 13px;
 footer{text-align: center;
         color: #4fbbe4;}
 input,td img{vertical-align:middle;}
-h1{
-    text-align: center;
-}
-.Inroduction{
-    margin:50px;
-    padding: 50px;
-    font-size: 1.5em;
-    font-family:'Times New Roman';
-    text-align: left;
-    border: 1px solid;
-    border-radius: 3em;
-}
-#search{
-    float: right;
-}
+
 
