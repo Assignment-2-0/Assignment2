@@ -34,4 +34,7 @@ h1{
     border: 1px solid;
     border-radius: 3em;
 }
+#search{
+    float: right;
+}
 
