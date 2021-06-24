@@ -1,8 +1,27 @@
+h1 {
+    text-align: center;
+    padding: 1px;
+}
+.head img{
+    width: 200px;
+}
 div.category {
+    float: left;
+    border: 2px solid;
+    margin: 20px;
+    padding:20px;
     
 }
 
 div.category img {
-    float: left;
-    border: 2px solid;
+    width: 200px;
+    height: 130px;
+    transition: 1s;
+}
+div.category img:hover {
+    transform: scale(1.3);
+    z-index: 1;
+}
+#search {
+    float: right;
 }
