@@ -6,8 +6,12 @@ h1 {
 h1:hover{
     transform: scale(1.1);
 }
+h2 {
+    text-align: center;
+    color:#4fbbe4;}
 .head img{
-    width: 180px;
+    width: 100;
+    height: 90px;
 }
 div.category {
     float: left;
@@ -15,6 +19,7 @@ div.category {
     margin: 20px;
     padding:20px;
     transition: 0.5s;
+    background-color:rgb(134, 147, 160);
 }
 div.category:hover{
     transform: scale(1.1);
@@ -24,11 +29,11 @@ div.category img {
     width: 200;
     height: 130px;
 }
-
 #search {
     float: right;
     width: 200;
 }
-
-
-
+footer {
+    padding: 90px;
+    text-align: center;
+}
