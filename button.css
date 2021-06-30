@@ -1,0 +1,12 @@
+body{margin-left: 20px;
+    background-image: url(galaxy.png);
+    background-size: 140%;}
+label{font: bold;
+    float: left;
+    margin-left: 20px;
+    color: white;}
+input{display: block;
+    margin-left: 200px;
+    margin-bottom: 10px;}
+footer{text-align:center;
+        color: #4fbbe4;}
