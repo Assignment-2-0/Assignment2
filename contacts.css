@@ -1,0 +1,39 @@
+main {
+    text-align: center;
+    font-size: medium;
+    color:rgb(0, 0, 0);
+}
+
+h2 {
+    color:rgb(0, 0, 0);
+    font-size:xx-small
+}
+
+
+h3 {
+    color:rgb(0, 0, 0);
+    font-size:xx-small
+}
+
+
+h4 {
+    color:rgb(0, 0, 0);
+    font-size:xx-small
+}
+
+section {
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+footer {
+    text-align: center;
+    color: #4fbbe4;
+}
+
+body {
+    background-image: url("images/white-abstract-background_23-2148810113.jpeg");
+   }
+
+
+

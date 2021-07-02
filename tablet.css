@@ -1,0 +1,68 @@
+body {
+    background-image: url("images/white-abstract-background_23-2148810113.jpeg");
+   }
+
+#Search {
+    float: right;
+    margin-top: 10px;
+}
+
+input, img {
+    vertical-align:middle;
+}
+
+
+
+header {
+    margin-left: 40px;
+}
+
+main {
+    text-align: center;
+}
+
+h1 div {
+    display: inline;
+   
+}
+
+#Categories {
+    color:rgb(0, 0, 0);
+}
+
+#Tablet {
+    color: #4fbbe4;
+}
+
+figure {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+figcaption {
+    font-size: 10;
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+figure img {
+    border: 1px solid;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#a {
+    font-size: 16px;
+    font-family: Impact;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: #4fbbe4;
+}
+
+
+
+
