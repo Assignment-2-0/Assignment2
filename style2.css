@@ -1,31 +1,30 @@
-#troley{float: right;
-        margin-top: 10px;}
+.troleys{float: right;}
 input, img{vertical-align:middle;}
 header {margin-left: 30px;}
-#search{float: right;
+.search{padding-left: 50%;
         }
 h1 div{display: inline;}
-#mouse{color: #4fbbe4;}
+.mouse{color: #4fbbe4;}
 figure {display: inline-block;
         text-align: center;
         margin-top: 10px;}
-figcaption{font-size: 14px;
+p{font-size: 14px;
         text-align: left;
         font-family: 'Times New Roman', Times, serif;}
 figure img{border: 1px solid;
         box-sizing: border-box;
         padding: 10px;}
-#a{font-size: 16px;
+.a{font-size: 16px;
 font-family: Impact;
 text-align: center;
 text-decoration:underline ;}
 footer{text-align: center;
         color: #4fbbe4;}
-body{background-image: url(white-abstract-background_23-2148810113.jpeg);
-        background-size: 100%;
-}
-#b{background-color: #b3d9ff;} 
-#b:hover{background-color: #80bfff;}
+body{background-image:url(white\ background.jpeg);
+        background-size: 100%;}
+input{background-color: #b3d9ff;} 
+input:hover{background-color: #80bfff;}
+footer p,h3{text-align: center;}
 @media only screen and ( max-width: 768px)and (min-width:375px){
         figure{display: block;}
         figcaption{text-align: center;}
