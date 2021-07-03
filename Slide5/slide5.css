@@ -12,7 +12,7 @@ h1{font-size: 26px;font-family: 'Courier New', Courier, monospace;}
         span{color: #4fbbe4;}
         body img{border: 5px;}
         body{background-image: url(white-abstract-background_23-2148810113.jpeg);}
-         button{background-color: #b3d9ff;} 
+         button{background-color: #b3d9ff;text-align:center;} 
         button:hover{background-color: #80bfff;}
     @media only screen and (max-width:1078px) and (min-width:481px){
         table{width: 120%;}
