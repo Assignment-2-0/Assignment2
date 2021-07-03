@@ -13,24 +13,24 @@ body {
     text-align: left;
     border: 1px solid;
     border-radius: 3em;
-    background-color:rgb(134, 147, 160);
+    background-color:rgb(134, 147, 160)
 }
+
 #search{
     float: right;
 }
 h1 {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    color: whitesmoke;}
+}
 .footer{
     text-align: center;
     border-top: 1px solid ;
-    height:200px;
     margin-top: 100px;
     font-family: 'Roboto Mono', monospace;
 }
-.far, .fab, h3, p {
-    color: #000
+.far, .fab, h3 {
+    color: #4fbbe4;
 }
 @media only screen and (max-width:768px) {
     .Introduction {width: 100%;}
