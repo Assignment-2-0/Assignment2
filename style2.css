@@ -2,21 +2,35 @@
         margin-top: 10px;}
 input, img{vertical-align:middle;}
 header {margin-left: 30px;}
-#search{float: right;}
+#search{float: right;
+        }
 h1 div{display: inline;}
 #mouse{color: #4fbbe4;}
 figure {display: inline-block;
         text-align: center;
         margin-top: 10px;}
 figcaption{font-size: 14;
-        text-align: left;}
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;}
 figure img{border: 1px solid;
         box-sizing: border-box;
         padding: 10px;}
 #a{font-size: 16px;
 font-family: Impact;
-text-align: center;}
+text-align: center;
+text-decoration:underline ;}
 footer{text-align: center;
         color: #4fbbe4;}
-
+body{background-image:url(white-abstract-background_23-2148810113.jpeg;)}
+#b{background-color: #b3d9ff;} 
+#b:hover{background-color: #80bfff;}
+@media only screen and ( max-width: 768px)and (min-width:375px){
+        figure{display: block;}
+        figcaption{text-align: center;}
+        #search{display:none;}
+}
+@media only screen and (max-width:1078px) and (min-width:481px){
+            figure{display: inline-block;
+                text-align: center;} 
+}
         
