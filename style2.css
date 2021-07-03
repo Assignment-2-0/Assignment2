@@ -21,8 +21,9 @@ text-align: center;
 text-decoration:underline ;}
 footer{text-align: center;
         color: #4fbbe4;}
-body{background-image:url(img/white-abstract-background_23-2148810113.jpeg;)
-                        background-size: 100%;}
+body{background-image: url(white-abstract-background_23-2148810113.jpeg);
+        background-size: 100%;
+}
 #b{background-color: #b3d9ff;} 
 #b:hover{background-color: #80bfff;}
 @media only screen and ( max-width: 768px)and (min-width:375px){
