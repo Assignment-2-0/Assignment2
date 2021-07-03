@@ -1,9 +1,10 @@
+
 table{margin:auto;
     margin-top: 10px;
    border-collapse: collapse;
     margin-bottom: -10px;
-    width: 110%;
-    margin-left: -10px;}
+    width: 100%;
+}
 td{border: 1px solid;
     padding: 20px;
     text-align: center;}
@@ -15,12 +16,43 @@ figure img{border: 1px solid;
             padding: 10px;}
 .arrow{border-color: rgba(0,0,0,0);}
 figure{display: inline-block;
-        margin-top: 20px;}
+        margin-top: 20px;
+        transition: 0.5s;}
 figcaption{font-size: 13px;
             text-align: center;
-            color: #4fbbe4;}
+            color: #4fbbe4;
+                font-family: 'Times New Roman', Times, serif;}
 footer{text-align: center;
         color: #4fbbe4;}
 input,td img{vertical-align:middle;}
+body{background-image: url(white-abstract-background_23-2148810113.jpeg);
+        background-size: 100%;
+}
+a{text-decoration: none;}
+figure:hover{
+        transform: scale(1.1);
+}
+a:link{color: antiquewhite;}
+a:visited{color:darkslategray}
+a:focus{color:aliceblue ;}
+a:hover{color:black;}
+a:active{color: burlywood;}
 
+
+
+@media only screen and ( max-width: 768px)and (min-width:375px){
+            table{width: 120%;}
+            #a{display: none;}
+            .arrow{display: none;}
+            figure{display: block;
+                text-align: center;}
+        }
+        
+@media only screen and (max-width:1078px) and (min-width:481px){
+        table{width: 120%;}
+            #a{display: none;}
+            .arrow{display: none;}
+            figure{display: inline-block;
+                text-align: center;}
+}
 
