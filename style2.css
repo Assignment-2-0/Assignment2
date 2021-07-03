@@ -9,7 +9,7 @@ h1 div{display: inline;}
 figure {display: inline-block;
         text-align: center;
         margin-top: 10px;}
-figcaption{font-size: 14;
+figcaption{font-size: 14px;
         text-align: left;
         font-family: 'Times New Roman', Times, serif;}
 figure img{border: 1px solid;
