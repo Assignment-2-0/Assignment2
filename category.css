@@ -1,7 +1,10 @@
-
+body {
+    background-image: url(img/white-abstract-background_23-2148810113.png);
+}
 h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 h1:hover{
     transform: scale(1.1);
@@ -14,7 +17,7 @@ h2 {
     height: 90px;
 }
 div.category {
-    float: left;
+    display: inline-block;
     border: 2px solid;
     margin: 20px;
     padding:20px;
@@ -33,7 +36,11 @@ div.category img {
     float: right;
     width: 200;
 }
-footer {
-    padding: 90px;
-    text-align: center;
+@media only screen and (max-width:768px) {
+    .category img {width: 100%;}
+    h1 {width: 90%;}
+}
+@media only screen and (max-width:1078px) {
+    .category img {width: auto;}
+    h1 {width: auto;}
 }
