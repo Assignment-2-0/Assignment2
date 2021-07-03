@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/384dd410e7.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="button.css">
+        <script type="text/javascript" src=button.js></script>
     </head>
     <header>
         <img src="img/The big 5.png" alt="thebig5" height="80" width="150">
@@ -15,9 +16,11 @@
         <label>Product Name:</label>
             <input type="text" size="50" maxlength="20" placeholder="Expample:Xiaomi Redmi Note 10 Pro">
         <label>First Name:</label>
-            <input type="text" size="50" maxlength="20" placeholder="Expample:Wong">
+            <input type="text" size="50" maxlength="20" placeholder="Expample:Wong"  id="firstName" onblur="validateFirstName()">
+            <span id="firstNamePrompt"></span>
         <label>Last Name:</label>
-            <input type="text" size="50" maxlength="20" placeholder="Expample:Xiao Mei">
+            <input type="text" size="50" maxlength="20" placeholder="Expample:Xiao Mei"  id="lastName" onblur="validateLastName()">
+            <span id="lastNamePrompt"></span>
         <label>Tel:</label>
             <input type="text" size="50" maxlength="20" placeholder="Expample:010-1234567">
         <label>Home Address:</label>
