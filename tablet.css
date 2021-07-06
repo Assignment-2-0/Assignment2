@@ -10,13 +10,6 @@ input, img {
     vertical-align:middle;
 }
 
-button {
-    background-color: #b3d9ff;text-align: center;
-} 
-
-button:hover {
-    background-color: #80bfff;
-}
 
 input {
     background-color: #b3d9ff;
