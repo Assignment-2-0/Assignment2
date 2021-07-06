@@ -1,11 +1,6 @@
 body{margin-left: 20px;
     background-image: url(white-abstract-background_23-2148810113.jpeg);
-    background-size: 140%;}
-label{font: bold;
-    float: left;
-    margin-left: 20px;}
-input{display: block;
-    margin-left: 200px;
-    margin-bottom: 10px;}
+    background-size: 100%;}
+input{display: block;}
 footer{text-align:center;
         color: #4fbbe4;}
