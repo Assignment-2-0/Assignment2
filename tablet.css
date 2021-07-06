@@ -10,7 +10,13 @@ input, img {
     vertical-align:middle;
 }
 
+button {
+    background-color: #b3d9ff;text-align: center;
+} 
 
+button:hover {
+    background-color: #80bfff;
+}
 
 header {
     margin-left: 40px;
